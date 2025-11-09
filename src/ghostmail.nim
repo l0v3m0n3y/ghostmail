@@ -1,4 +1,4 @@
-import asyncdispatch, httpclient, json, strutils, htmlparser, xmltree
+import asyncdispatch, httpclient, json, strutils
 
 const api = "https://api.ghost-mail.io"
 var headers = newHttpHeaders({
